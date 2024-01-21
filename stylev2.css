@@ -1,0 +1,87 @@
+/* Custom CSS for Cheer School Webpage */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ff6600;
+    /* Change the background color */
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    /* Change the brand text color */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    /* Change the navigation links text color */
+}
+
+/* Header Section Styles */
+.jumbotron {
+    color: #ffffff;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    /* Change the header text size */
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    /* Change the subheading text size */
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f4f4f4;
+    /* Change the background color */
+}
+
+/* Classes Section Styles */
+#classes {
+    background-color: #ffffff;
+    /* Change the background color */
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f4f4f4;
+    /* Change the background color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    /* Change the footer background color */
+    color: #ffffff;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ff6600;
+    /* Change the button background color */
+    border-color: #ff6600;
+    /* Change the button border color */
+}
+
+.btn-primary:hover {
+    background-color: #ff4500;
+    /* Change the button background color on hover */
+    border-color: #ff4500;
+    /* Change the button border color on hover */
+    color: #ffffff;
+    /* Change the button text color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+        /* Adjust header text size for smaller screens */
+    }
+
+    .jumbotron p {
+        font-size: 1.2rem;
+        /* Adjust subheading text size for smaller screens */
+    }
+}
